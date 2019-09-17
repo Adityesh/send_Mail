@@ -1,6 +1,6 @@
 # send_Mail
 
-
+#### Run the script by typing `py sendEmail.py` in the terminal
 
 #### This script uses the inbuilt smtplib module to send emails to other accounts.
 
