@@ -1,11 +1,12 @@
 import smtplib
+from getpass import getpass
 
 s = smtplib.SMTP('smtp.gmail.com',587)
 
 s.starttls()
 
 email_input = input("Enter your email id: \n")
-email_password = input("Enter your email password: \n")
+email_password = getpass("Enter your email password: \n")
 
 s.login(email_input,email_password)
 
